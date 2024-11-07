@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-link {
+    color: black !important;
+}
+
+.text-link:hover {
+    color: #1677ff !important;
+}
+
+.default-color {
+    color: black !important;
+}
+
+.ml-3 {
+    margin-left: 12px
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mt-2 {
+    margin-top: 8px !important;
+}
+
+.pa-2 {
+    padding: 8px !important;
+}
+
+.ml-2 {
+    margin-left: 8px !important;
+}
+
+.pa-3 {
+    padding: 12px !important;
+}
+
+.component-center {
+    justify-content: center;
+}
+
+div:has(.flex-start-end) {
+    width: 100% !important
+
+}
+
+.mr-2 {
+    margin-right: 8px !important;
+}
+
+.mr-1 {
+    margin-right: 4px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 170px;
+}
+.content-search {
+    margin-top: 180px;
+}
+.container-searching {
+    position: relative;
+    z-index: 1000;
+    overflow-y: auto; /* Cho phép cuộn nếu nội dung quá lớn */
+}
+
+.btn-list {
+    margin-left: 11px;
+}
+
+.btn-border{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
